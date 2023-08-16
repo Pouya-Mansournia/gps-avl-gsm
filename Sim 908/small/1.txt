@@ -1,0 +1,3 @@
+#define  led_U PORTA.2
+#define  led_D PORTB.5
+#define  POWER PORTC.0

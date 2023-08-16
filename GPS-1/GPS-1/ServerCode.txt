@@ -1,0 +1,14 @@
+X110-Server:[POS][ANTEN|ANTENM][POW][KILL[key]][PINT:[telnum]][PING]
+
+POS : mokhtasate feli
+	sample -- > X110-Server:POS
+ANTEN : Antene GPS o bar migardone age ANTENM bezani antene gsm o bar migardone 
+	sample -- > X110-Server:ANTEN
+POW   : meghdare battry ro bar migardone 
+	sample -- > X110-Server:POW
+KILL[key] : in dastor vase reset kardane dasgahe bekhatere masaele amniyati ye key vasash darnazar migirim ke harkasi natone khamosh kone 
+	sample -- > X110-Server:KILL-X12-@2S-ERC-LI0
+PINT:[telnum] : indastor vase remot kardane khodemone ke age bekhaym ye dasgaho az daftar mokhtasato begirim ba in migirim 
+	sample -- > X110-Server:PINT:09365781302
+PING : inam ke malome pinge dige 
+	sample -- > X110-Server:PING 

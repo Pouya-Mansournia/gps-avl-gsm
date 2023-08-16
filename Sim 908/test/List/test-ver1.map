@@ -1,0 +1,32 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+caller_id                                                         0x0613      20
+rx_buffer0                                                        0x0627      80
+tx_buffer0                                                        0x0677      40
+rx_buffer1                                                        0x069F     100
+rx_wr_index1                                                      0x0703       1
+rx_rd_index1                                                      0x0704       1
+rx_counter1                                                       0x0705       1
+_seed                                                             0x0706       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+sms_in_e2prom                                                     0x0000     256
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+data_ready                                                        R2.0      1bit
+trueData                                                          R2.1      1bit
+count                                                             R4,R5        2
+len                                                               R6,R7        2
+rx_wr_index0                                                      R9           1
+rx_rd_index0                                                      R8           1
+rx_counter0                                                       R11          1
+rx_buffer_overflow0                                               R2.2      1bit
+tx_wr_index0                                                      R10          1
+tx_rd_index0                                                      R13          1
+tx_counter0                                                       R12          1
+rx_buffer_overflow1                                               R2.3      1bit

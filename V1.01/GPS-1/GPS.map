@@ -1,0 +1,40 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+caller_id                                                         0x06B6      20
+rx_buffer0                                                        0x06CA     200
+tx_buffer0                                                        0x0792     200
+tx_counter0                                                       0x085A       1
+rx_buffer1                                                        0x085B     200
+rx_wr_index1                                                      0x0923       1
+rx_rd_index1                                                      0x0924       1
+rx_counter1                                                       0x0925       1
+tx_buffer1                                                        0x0926     200
+tx_wr_index1                                                      0x09EE       1
+tx_rd_index1                                                      0x09EF       1
+tx_counter1                                                       0x09F0       1
+count                                                             0x09F1       2
+len                                                               0x09F3       2
+_seed                                                             0x09F5       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+sms_in_e2prom                                                     0x0000     256
+gps_in_e2prom                                                     0x0100     256
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+adc_data                                                          R4,R5        2
+data_ready                                                        R2.0      1bit
+trueData                                                          R2.1      1bit
+setpoint                                                          R7           1
+Tocr                                                              R8,R9        2
+rx_wr_index0                                                      R6           1
+rx_rd_index0                                                      R11          1
+rx_counter0                                                       R10          1
+rx_buffer_overflow0                                               R2.2      1bit
+tx_wr_index0                                                      R13          1
+tx_rd_index0                                                      R12          1
+rx_buffer_overflow1                                               R2.3      1bit
